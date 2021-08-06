@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const TodoItem = ({onToggle,onRemove,completed,text})=>{
-  const checkedProp = completed?{checked:true}:{}
+  const checkedProp = completed?{checked:true}:{};
   return (
     <li
       className="todo-item"
